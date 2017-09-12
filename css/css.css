@@ -1,0 +1,48 @@
+        body{background: #eee;}
+        a{color: #fff;}
+        .clearfix::afer{content:"";height: 0;line-height: 0;clear: both;display: block;}
+        .mt-70{margin-top: 70px;}
+
+        nav{background: #000;height: 50px;padding-top: 5px;position: fixed;z-index: 100;width: 100%;}
+        nav li{margin-right: 10px;}
+        nav li i{margin-right: 10px;}
+        .nav-con{width: 100%;}
+
+        footer, .about, .main, .skills{padding: 50px;}
+        footer{background: #2f2f2f;color: #fff;}
+        footer h3{margin-top: 40px;font-size: 18px;}
+        footer div i{margin-right: 5px;}
+        footer .col-lg-3 p{margin-top: 40px;}
+        footer .col-lg-3 h3{font-size: 15px;}
+
+        .about{padding: 70px;}
+        .about, .skills{background: #2c3e50;color: #fff;}
+        .about img{width: 140px;border-radius: 50%;}
+        .about .col-lg-3:last-child{text-align: center;}
+
+        .banner{width: 100%;background: url(../images/84.jpg) no-repeat center -20px;height: 550px;background-size: cover;text-align: center;padding-top: 200px;}
+        .banner .tit{font-size: 40px;}
+        .banner p{font-size: 20px;color: #fff;font-weight: bold;}
+
+        .main h1{margin-bottom: 50px;font-size: 30px;text-align: center;}
+        .main div:first-child{border-right: 5px solid #676767;}
+        .main div:last-child{padding-left: 50px;margin-top: 100px;}
+        .main section{width: 90%;padding: 10px 5px 5px;background: #fff;border-radius: 10px;}
+        .main .main-con dl{float: left;width: 70%;text-align: left;padding:0 10px;border-right: 3px solid #999;}
+        .main .main-con dt{font-size: 15px;margin-bottom: 10px;}
+        .main .main-con dd{font-size: 12px;line-height: 1.8;padding-left: 5px;}
+        .main .main-con span{float: left;padding:15px 0 0 10px;display: block;width: 30%;text-align: center;}
+        .main .main-con span p{font-size: 12px;}
+        .main .main-con span .txt{color: orange;font-weight: bold;font-size: 36px;}
+        
+        .skills .progress{background: #555;}
+        .skills .hobby{position: relative;}
+        .skills h2{font-size: 30px;margin-bottom: 30px;}
+        .skills .hobby .hobby1{width: 140px;height: 140px;background: rgba(255,255,21,0.5);border-radius: 50%;position: absolute;top: 130px;left: 260px;line-height: 140px;text-align: center;}
+        .skills .hobby .hobby2{width: 100px;height: 100px;background: rgba(255,1,36,0.5);border-radius: 50%;position: absolute;top: 90px;left: 230px;line-height: 100px;text-align: center;}
+        .skills .hobby .hobby3{width: 90px;height: 90px;background: rgba(12,113,255,0.5);border-radius: 50%;position: absolute;top:270px;left: 250px;line-height: 90px;text-align: center;}
+        .skills .hobby .hobby4{width: 100px;height: 100px;background: rgba(135,255,255,0.5);border-radius: 50%;position: absolute;top: 199px;left: 200px;line-height: 100px;text-align: center;}
+        .skills .hobby .hobby5{width: 100px;height: 100px;background: rgba(255,189,254,0.4);border-radius: 50%;position: absolute;top: 50px;left: 400px;line-height: 100px;text-align: center;}
+        .skills .hobby .hobby6{width: 80px;height: 80px;background: rgba(255,255,143,0.5);border-radius: 50%;position: absolute;top: 300px;left: 350px;line-height: 80px;text-align: center;}
+        .skills .hobby .hobby7{width: 120px;height: 120px;background: rgba(156,121,121,0.5);border-radius: 50%;position: absolute;top: 210px;left: 420px;line-height: 120px;text-align: center;}
+        .skills .hobby8{width: 120px;height: 120px;background: rgba(156,231,131,0.5);border-radius: 50%;position: absolute;top: 80px;left: 50px;line-height: 120px;text-align: center;}
